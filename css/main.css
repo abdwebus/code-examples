@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    /* font-size: clamp(large, x-large, xx-large); */
+}
+
+.container{
+    padding: 15px;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(47, 64, 85);
+}
+
+.text-box {
+    padding: 10px;
+    width: 100%;
+}
+
+.text-box.top {
+    margin-bottom: 5px;
+}
+
+.submit {
+    padding: 15px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: rgb(93, 202, 121);
+    box-shadow: none;
+    border: none;
+}
+
+.submit-wrapper{
+    margin-top: 3px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
